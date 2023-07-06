@@ -27,4 +27,51 @@
 .item:hover{
   color: rgba(0, 0, 255, 0.589);
 }
+.banner-img{
+  width: 300px;
+}
+.banner-container{
+  display: flex;
+  height: 100vh;
+  /* border: 2px solid gray; */
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  background-image: url("./img/background.png"),linear-gradient(45deg,rgba(0, 0, 0, 0.911),rgba(0, 0, 0, 0.959))
+  
+}
+.title{
+  font-size: 55px;
+  font-weight: bold;
+}
+.description{
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 15px ;
+  /* animation-delay: 0.5s; */
+}
+.btn{
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* animation-delay: 1s; */
+}
+.btn:hover{
+  background-color: brown;
+}
+/* .anim{
+  opacity: 0;
+  transform: translateY(30px);
+  animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup{
+  100%{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+} */
+
 
